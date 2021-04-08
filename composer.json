@@ -15,7 +15,7 @@
         "symfony/console": "~2.7|~3.0|~4.0",
         "symfony/dependency-injection": "~2.7|~3.0|~4.0",
         "doctrine/annotations": "^1.4",
-        "jms/metadata": "^1.6",
+        "jms/metadata": "^2.0",
         "fakerphp/faker": "^1.7",
         "doctrine/orm": "^2.5"
     },

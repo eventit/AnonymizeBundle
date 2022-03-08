@@ -40,7 +40,7 @@ class AnonymizeDriver implements DriverInterface
      *
      * @return \Metadata\ClassMetadata
      */
-    public function loadMetadataForClass(\ReflectionClass $class)
+    public function loadMetadataForClass(\ReflectionClass $class): ?ClassMetadata
     {
         $classMetadata = new AnonymizedClassMetadata($class->getName());
 
